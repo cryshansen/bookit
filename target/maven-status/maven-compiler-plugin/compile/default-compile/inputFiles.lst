@@ -1,0 +1,7 @@
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/BookitApplication.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/controller/AppointmentController.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/controller/BookitController.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/controller/HealthCheckController.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/controller/HelloController.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/model/Appointment.java
+/Users/crystalhansen/eclipse/bookit/src/main/java/com/artog/bookit/repository/HealthCheckRepository.java

@@ -1,0 +1,15 @@
+Getting mysql set up properly. 
+# if the package wont run via mvn clean package, mvn -DskipTests package
+
+docker stop mysql-container
+#tihs will remove the database not just the container!!!
+docker rm mysql-container
+docker network create bookit-network
+docker run -d --name mysql-container --network bookit-network -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=booking -p 3306:3306 mysql:latest
+
+
+docker exec -it bookit-container curl http://localhost:8181/health/db
+
+
+docker build -t bookit .
+docker build -t bookit .
